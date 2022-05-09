@@ -4,7 +4,6 @@ import { Button, Form } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSendEmailVerification, useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
-import login from '../../../images/login.png';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css'
 import Loading from '../../Shared/Loading/Loading';
@@ -72,12 +71,9 @@ const Login = () => {
     }
     return (
         <div className=' my-5 py-3 px-5'>
-            <h1 className='pt-2 text-center text-success'>Please Login</h1>
+            <h1 className='pt-2 text-center login'>Please Login Here</h1>
             <div className='row my-5'>
-                <div className='col-12 col-sm-12 col-md-5 col-lg-5'>
-                    <img width="400" height="450" src={login} alt="" />
-                </div>
-                <div className='col-12 col-sm-12 col-md-7 col-lg-7 p-3 login-container bg-light border rounded-3'>
+                <div className=' col-12 col-sm-12 col-md-8 col-lg-8 p-3 border rounded-3 mx-auto'>
                     <Form className=' mt-3' onSubmit={handleOnSubmitLogin}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Control ref={emailRef} type="email" placeholder="Enter Your Email" required />
