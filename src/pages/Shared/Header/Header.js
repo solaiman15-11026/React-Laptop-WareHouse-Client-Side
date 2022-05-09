@@ -17,14 +17,14 @@ const Header = () => {
             <Container>
                 <Link className='navbar-items' to='/' >
                     <img width='60' src={logo} alt="" srcset="" />
-                    Car WareHouse
+                    Labtop WareHouse
                 </Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
 
                     </Nav>
-                    <Nav>
+                    <Nav className=''>
                         <Link className='navbar-items' to='/blogs'>Blogs</Link>
                         {
                             user ?
@@ -49,7 +49,7 @@ const Header = () => {
                             user ?
                                 <button onClick={logout} className='btn btn-danger ms-2'>Sign Out</button> :
                                 <Link className='navbar-items' eventKey={2} to="/login">
-                                    <button className='btn btn-success'>Login</button>
+                                    <button className='btn btn-primary'>Login</button>
                                 </Link>}
 
                     </Nav>
