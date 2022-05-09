@@ -25,7 +25,7 @@ const Blogs = () => {
                         whereas unstructured data like documents and JSON is a strength of NoSQL databases.
                     </p>
                 </div>
-                <div className='p-4 mt-4 shadow rounded-3'>
+                <div className='p-4 mt-4 shadow rounded-3 mb-4'>
                     <h3 className='py-2  text-center text-primary'> What is the purpose of jwt and how does it work?</h3>
                     <p className='pb-2 text-center rr'>JWT (JSON Web Token) is an open standard that allows two parties — a client and a server — to share security information. JSON items, containing a set of claims, are encoded in each JWT. JWTs use a cryptographic technique to ensure that the claims cannot be changed after the token has been issued. <br />
                         Authentication is the primary use of JWT. When a user logs in to an application, the app generates a JWT and sends it to the user. The JWT will be included in the user's subsequent requests. The token informs the server about the routes, services, and resources that the user is permitted to use.
