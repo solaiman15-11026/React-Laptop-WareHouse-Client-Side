@@ -25,6 +25,7 @@ const Header = () => {
 
                     </Nav>
                     <Nav className='d-inline p-2  text-white'>
+                        <Link className='navbar-items' to='/home'>Home</Link>
                         <Link className='navbar-items' to='/blogs'>Blogs</Link>
                         {
                             user ?
