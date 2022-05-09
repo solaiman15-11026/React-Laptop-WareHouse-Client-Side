@@ -32,15 +32,7 @@ const Footer = () => {
                                 <p className='text-white'>
                                     All kind of car are available. We are import brand new car from many countries
                                 </p>
-                                <div>
-                                    <Link to='/facebook'><img src={facebook} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
-                                    <Link to='/whatsapp'><img src={whatsapp} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
-                                    <Link to='/instagram'><img src={instagram} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
-                                    <Link to='/linkdin'><img src={linkdin} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
-                                    <Link to='/github'><img src={github} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
 
-
-                                </div>
                             </div>
 
                             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -60,26 +52,6 @@ const Footer = () => {
                                     <Link to='/TermsCondition' className=" text-white text-decoration-none hover-link">Terms & Condition</Link>
                                 </p>
                             </div>
-
-                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                                <h6 className="text-uppercase text-white fw-bold mb-3">
-                                    Useful links
-                                </h6>
-                                <p>
-                                    <Link to='/pricing' className='text-white text-decoration-none'>Pricing</Link>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-white text-decoration-none">Settings</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-white text-decoration-none">Orders</a>
-                                </p>
-                                <p>
-                                    <a href="#!" className="text-white text-decoration-none">Help</a>
-                                </p>
-                            </div>
-
                             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4 text-white">
@@ -99,7 +71,24 @@ const Footer = () => {
                                     +880-1879198066</p>
                             </div>
 
+                            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                                <h6 className="text-uppercase text-white fw-bold mb-3">
+                                    SOCIAL MEDIA
+                                </h6>
+                                <div className='d-inline-flex '>
+                                    <Link to='/facebook'><img src={facebook} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
+                                    <Link to='/whatsapp'><img src={whatsapp} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
+                                    <Link to='/instagram'><img src={instagram} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
+                                    <Link to='/linkdin'><img src={linkdin} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
+                                    <Link to='/github'><img src={github} className='me-3' style={{ width: '26px', height: '26px' }} alt="" srcset="" /></Link>
+
+
+                                </div>
+                            </div>
+
                         </div>
+
 
                     </div>
                 </section>

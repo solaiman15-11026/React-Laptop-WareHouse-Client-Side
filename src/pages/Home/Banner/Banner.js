@@ -22,9 +22,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption className='mb-5'>
-                    <h1 className='text-uppercase '>Brand New Car</h1>
-                    <p style={{ fontSize: '24px' }}>Visit our Warehouse and buy it Quickly</p>
-                    <Button variant="btn btn-success mb-1">Learn More</Button>
+                    <h4 className='text-uppercase '>Brand New Labtop</h4>
+                    <p style={{ fontSize: '18px' }}>Buy it Quickly and booking first</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,9 +34,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption className='mb-5'>
-                    <h1 className='text-uppercase '>Raceing Car</h1>
-                    <p style={{ fontSize: '24px' }}>Top speed car, Increase speed and enjoy this.</p>
-                    <Button variant="btn btn-success mb-1">Learn More</Button>
+                    <h4 className='text-uppercase '>Compotable labtop with good features</h4>
+                    <p style={{ fontSize: '18px' }}>Best features labtop and good price</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -48,11 +46,10 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption className='mb-5'>
-                    <h1 className='text-uppercase'>Comfortable and Cheap Price Car</h1>
-                    <p style={{ fontSize: '24px' }}>
-                        Super car with chep cost.
+                    <h4 className='text-uppercase'>Low budget laptop</h4>
+                    <p style={{ fontSize: '18px' }}>
+                        Low budget but good features
                     </p>
-                    <Button variant="btn btn-success mb-1">Learn More</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
