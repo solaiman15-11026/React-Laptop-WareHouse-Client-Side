@@ -76,9 +76,7 @@ const Footer = () => {
                                 <p className='text-white'>
                                     <PhoneIcon style={{ width: '16px', height: '16px' }} className='me-2'></PhoneIcon>
                                     +880-1732801336</p>
-                                <p className='text-white'>
-                                    <PhoneIcon style={{ width: '16px', height: '16px' }} className='me-2'></PhoneIcon>
-                                    +880-1305272861</p>
+
                             </div>
 
                             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
