@@ -1,64 +1,49 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Services.css'
+import { faLock, faArrowRotateLeft, faHeadset, faShippingFast } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
     return (
         < div className='mb-5' >
-            <h1 className='mt-3 mb-2 text-center text-uppercase text-success'>Our Service Packages</h1>
-            <hr style={{ width: '40%', margin: '0  auto' }} className='mb-4' />
-            <div className="wrapper">
-                <input type="radio" name="slider" id="tab-1" />
-                <input type="radio" name="slider" id="tab-2" checked />
-                <input type="radio" name="slider" id="tab-3" />
-                <header>
-                    <label for="tab-1" className="tab-1">Basic</label>
-                    <label for="tab-2" className="tab-2">Standard</label>
-                    <label for="tab-3" className="tab-3">Premium</label>
-                    <div className="slider"></div>
-                </header>
-                <div className="card-area">
-                    <div className="cards">
-                        <div className="row row-1">
-                            <div className="price-details">
-                                <span className="price">10k</span>
-                                <p>For Regular </p>
-                            </div>
-                            <ul className="features ms-3">
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>1 month free washing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>1 Month free servicing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>Guaranteed savings on your car servicing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>Discounts on all included services and an additional discount of 10% on Non-Package Services.</span></li>
-                            </ul>
+            <h2 className='mt-3 mb-2 text-center text-uppercase text-primary'> Services</h2>
+            <hr style={{ width: '40%', margin: '0  auto', color: 'green' }} className='mb-4' />
+            <div class="container mt-3">
+                <div class="row mt-4 my-5">
+                    <div class=" mt-4 col-12 col-md-3 mx-auto">
+                        <span className='icons'> <FontAwesomeIcon icon={faShippingFast}></FontAwesomeIcon> </span>
+                        <div className='top'>
+
+                            <h4>free shipping</h4>
+                            <p>order over $100</p>
                         </div>
-                        <div className="row">
-                            <div className="price-details">
-                                <span className="price">40k</span>
-                                <p>For professional </p>
-                            </div>
-                            <ul className="features ms-3">
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>3 month free washing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>3 Month free servicing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>Guaranteed savings on your car servicing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>Discounts on all included services and an additional discount of 40% on Non-Package Services.</span></li>
-                            </ul>
+                    </div>
+                    <div class=" mt-4 col-12 col-md-3 mx-auto">
+                        <span className='icons'> <FontAwesomeIcon icon={faHeadset}></FontAwesomeIcon></span>
+                        <div className='top'>
+                            <h4>24/7 support</h4>
+                            <p>call us anytime</p>
                         </div>
-                        <div className="row">
-                            <div className="price-details">
-                                <span className="price">25k</span>
-                                <p>For team collaboration</p>
-                            </div>
-                            <ul className="features ms-5">
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>2 month free washing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>2 Month free servicing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>Guaranteed savings on your car servicing</span></li>
-                                <li><FontAwesomeIcon className='fs-5 text-success' icon={faCircleCheck}></FontAwesomeIcon><span>Discounts on all included services and an additional discount of 25% on Non-Package Services.</span></li>
-                            </ul>
+
+                    </div>
+                    <div class=" mt-4 col-12 col-md-3 mx-auto">
+                        <span className='icons'><FontAwesomeIcon icon={faLock}></FontAwesomeIcon></span>
+                        <div className='top'>
+                            <h4>secure payment</h4>
+                            <p>100 secure payment</p>
+                        </div>
+                    </div>
+                    <div class=" mt-4 col-12 col-md-3 mx-auto">
+                        <span className='icons'><FontAwesomeIcon icon={faArrowRotateLeft}></FontAwesomeIcon></span>
+
+                        <div className='top'>
+                            <h4>easy returns</h4>
+                            <p>10 days returns </p>
                         </div>
                     </div>
                 </div>
-                <button>Choose plan</button>
+
+
             </div>
         </div >
     );
