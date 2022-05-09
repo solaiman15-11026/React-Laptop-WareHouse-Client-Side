@@ -1,0 +1,11 @@
+.navbar-items {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 0;
+    margin-left: 20px;
+}
+
+.navbar-items:hover {
+    color: green;
+}
