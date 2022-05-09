@@ -5,12 +5,11 @@
 ##### This is warehouse related website. In this website have many car which is imported from many countries
 
 ## About my website
-* This website is created by Crate-react-app and mongodb
-* For functional purpose I use React Router and also add some components
-* For the user authentication I use firebase authentication. Which authentication are Email, Password , Google & Github Authentication
+* This website is created by Crate-react-app and mongodb.
+* For functional purpose I use React Router and also add some components in my app.
+* Me use firebase authentication. Which authentication are Email and Password , Google & Github Authentication also.
 * Adding a private route which page user can't entire without login. After login user can stay in this page.
-* for hosting we use firebase
-* adding a two extra subvices 
+* For website hosting we use firebase.
 
 
 In the project directory, you can run:
