@@ -104,8 +104,8 @@ const Footer = () => {
                     </div>
                 </section>
 
-                <div className="text-center text-white p-4">
-                    &copy; Bike WareHouse - {date}
+                <div className="text-center text-white p-3">
+                    &copy; Labtop WareHouse - {date}
                 </div>
 
             </footer>

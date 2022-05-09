@@ -24,7 +24,7 @@ const Header = () => {
                     <Nav className="me-auto">
 
                     </Nav>
-                    <Nav className=''>
+                    <Nav className='d-inline p-2  text-white'>
                         <Link className='navbar-items' to='/blogs'>Blogs</Link>
                         {
                             user ?
