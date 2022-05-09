@@ -15,7 +15,7 @@ const InventoryPage = () => {
         navigate(`/inventory/${productId}`)
     }
     useEffect(() => {
-        fetch('https://quiet-beyond-84134.herokuapp.com/inventory')
+        fetch('http://localhost:5000/inventory')
             .then(res => res.json())
             .then(data => setCars(data))
     }, [])
@@ -24,7 +24,7 @@ const InventoryPage = () => {
         const proceed = window.confirm('Are you sure yo want to delete?')
         if (proceed) {
             console.log('delete item', id)
-            const url = `https://quiet-beyond-84134.herokuapp.com/inventory/${id}`;
+            const url = `http://localhost:5000/inventory/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
