@@ -20,7 +20,7 @@ const Inventories = () => {
     }
     return (
         <div className='conatiner my-5'>
-            <h1 className='mt-3 mb-2 text-center text-uppercase text-success'>Our Inventories</h1>
+            <h1 className='mt-3 mb-2 text-center text-uppercase text-success'>Our Item</h1>
             <hr style={{ width: '35%', margin: '0  auto' }} className='mb-4' />
             <div className='inventory-conatiner container'>
                 {

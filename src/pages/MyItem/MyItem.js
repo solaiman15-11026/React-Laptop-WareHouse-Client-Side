@@ -54,22 +54,10 @@ const MyItem = () => {
         <div>
             <div className='container my-5'>
 
-                <h2 className='text-center text-secondary mb-3 text-uppercase text-success'>Inventory Statement</h2>
-                <hr style={{ width: '35%', margin: '0  auto' }} className='mb-4' />
+                <h2 className='text-center text-secondary mb-3 text-uppercase text-dark'>my item</h2>
+                <hr style={{ width: '65%', margin: '0  auto' }} className='mb-4' />
 
                 <table className=''>
-
-                    <thead>
-
-                        <tr className='bg-custom text-light'>
-                            <th scope="col">Name</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Supplier</th>
-                            <th scope="col">Quantity</th>
-                            <th>Action</th>
-
-                        </tr>
-                    </thead>
                     <tbody>
 
                         {

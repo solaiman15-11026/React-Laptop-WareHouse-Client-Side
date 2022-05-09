@@ -27,16 +27,16 @@ const AddInventory = () => {
     };
     return (
         <div className='container mt-5 w-50 mx-auto'>
-            <h2 className='text-center text-success text-uppercase'>Please Add a Inventory</h2>
+            <h2 className='text-center text-dark text-uppercase'>Please add a item</h2>
             <form className='d-flex flex-column mt-3 mb-5' onSubmit={handleSubmit(onSubmit)}>
-                <input className='mb-2 border p-2 rounded' type='text' placeholder='Product Name' {...register("name", { required: true, maxLength: 20 })} />
-                <input className='mb-2 border p-2 rounded' placeholder="Email" defaultValue={user.email} type="email" {...register("email", { required: true })} />
-                <textarea className='mb-2 border' placeholder='Description' {...register("description",)} />
-                <input className='mb-2 border' placeholder='Price' type="number" {...register("price",)} />
-                <input className='mb-2 border' placeholder='Supplier' {...register("supplier", { required: true, maxLength: 20 })} />
-                <input className='mb-2 border' placeholder='Quantity' {...register("quantity", { required: true, maxLength: 20 })} />
-                <input className='mb-2 border' placeholder='Photo URL' type='text' {...register("img",)} />
-                <input type="submit" value='Add Inventory' className='btn-success py-2 text-center rounded' />
+                <input className='mb-2 border p-2 rounded' type='text' placeholder='Enter Product Name' {...register("name", { required: true, maxLength: 20 })} />
+                <input className='mb-2 border p-2 rounded' placeholder="Enter Email" defaultValue={user.email} type="email" {...register("email", { required: true })} />
+                <textarea className='mb-2 border' placeholder='Enter Description' {...register("description",)} />
+                <input className='mb-2 border' placeholder='Enter Price' type="number" {...register("price",)} />
+                <input className='mb-2 border' placeholder='Enter Supplier' {...register("supplier", { required: true, maxLength: 20 })} />
+                <input className='mb-2 border' placeholder='Enter Quantity' {...register("quantity", { required: true, maxLength: 20 })} />
+                <input className='mb-2 border' placeholder='Enter Photo url' type='text' {...register("img",)} />
+                <input type="submit" value='Add Item' className='btn-success p-2 text-center rounded border-0' />
                 <ToastContainer></ToastContainer>
             </form>
         </div>
