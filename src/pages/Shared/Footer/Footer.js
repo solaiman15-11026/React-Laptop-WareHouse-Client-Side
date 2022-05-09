@@ -27,10 +27,20 @@ const Footer = () => {
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                                 <h6 className="text-uppercase fw-bold mb-4 text-white">
-                                    Car WareHouse
+                                    INFORMATION
                                 </h6>
                                 <p className='text-white'>
-                                    All kind of car are available. We are import brand new car from many countries
+                                    Plans & pricing
+                                </p>
+                                <p className='text-white'>
+                                    About us
+                                </p>
+                                <p className='text-white'>
+                                    Jobs
+                                </p>
+                                <p className='text-white'>
+                                    Sell your content
+
                                 </p>
 
                             </div>
@@ -57,18 +67,18 @@ const Footer = () => {
                                 <h6 className="text-uppercase fw-bold mb-4 text-white">
                                     Contact US
                                 </h6>
-                                <p className='text-white'> <LocationMarkerIcon style={{ width: '16px', height: '16px', color: 'green' }} className='me-2'></LocationMarkerIcon>
-                                    Ring Road, Shayamoli, Dhaka</p>
+                                <p className='text-white'> <LocationMarkerIcon style={{ width: '16px', height: '16px' }} className='me-2'></LocationMarkerIcon>
+                                    150/4-Tejgau,Farmgate, Dhaka</p>
                                 <p className='text-white'>
                                     <MailIcon style={{ width: '16px', height: '16px' }} className='me-2'></MailIcon>
-                                    mostafizur15-10681@diu.edu.bd
+                                    Solaimansheik49@gmail.com
                                 </p>
                                 <p className='text-white'>
-                                    <PhoneIcon style={{ width: '16px', height: '16px', color: 'green' }} className='me-2'></PhoneIcon>
-                                    +880-1644823123</p>
+                                    <PhoneIcon style={{ width: '16px', height: '16px' }} className='me-2'></PhoneIcon>
+                                    +880-1732801336</p>
                                 <p className='text-white'>
                                     <PhoneIcon style={{ width: '16px', height: '16px' }} className='me-2'></PhoneIcon>
-                                    +880-1879198066</p>
+                                    +880-1305272861</p>
                             </div>
 
                             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -94,7 +104,7 @@ const Footer = () => {
                 </section>
 
                 <div className="text-center text-white p-3">
-                    &copy; Labtop WareHouse - {date}
+                    Copyright  &copy; Labtop WareHouse - {date}  All rights reserved.
                 </div>
 
             </footer>
