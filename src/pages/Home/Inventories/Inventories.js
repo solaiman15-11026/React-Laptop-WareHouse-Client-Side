@@ -9,7 +9,7 @@ const Inventories = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('https://quiet-beyond-84134.herokuapp.com/inventory')
+        fetch('http://localhost:5000/inventory')
             .then(res => res.json())
             .then(data => setInventories(data))
     }, [])
