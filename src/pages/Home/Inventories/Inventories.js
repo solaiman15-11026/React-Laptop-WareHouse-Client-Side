@@ -9,7 +9,7 @@ const Inventories = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('http://localhost:5000/inventory')
+        fetch('https://warm-spire-19666.herokuapp.com/inventory')
             .then(res => res.json())
             .then(data => setInventories(data))
     }, [])

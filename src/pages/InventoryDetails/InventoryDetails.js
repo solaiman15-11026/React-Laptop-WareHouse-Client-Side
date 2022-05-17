@@ -10,7 +10,7 @@ const InventoryDetails = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/inventory/${productId}`;
+        const url = `https://warm-spire-19666.herokuapp.com/inventory/${productId}`;
 
         fetch(url)
             .then(res => res.json())
@@ -33,7 +33,7 @@ const InventoryDetails = () => {
     const addQuantity = event => {
         event.preventDefault();
         const input = inputRef.current.value;
-        fetch(`http://localhost:5000/inventory/increase/${productId}`, {
+        fetch(`https://warm-spire-19666.herokuapp.com/inventory/increase/${productId}`, {
             method: 'PUT',
             headers: {
 
